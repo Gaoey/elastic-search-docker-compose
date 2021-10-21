@@ -1,0 +1,8 @@
+# check cluster health
+GET /_cluster/health
+
+# nodes informaton
+GET /_cat/nodes?v
+
+# index information
+GET /_cat/indices?v
